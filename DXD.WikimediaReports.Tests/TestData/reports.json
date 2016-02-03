@@ -1,0 +1,14 @@
+﻿[
+  {
+    "title": "Сторінки описів файлів без відповідного файлу",
+    "preamble": "Сторінки описів файлів без відповідного файлу; дані станом на <onlyinclude>{0}</onlyinclude>.",
+    "columns": [
+      {
+        "name": "Файл",
+        "format": "[[:Файл:{0}|{0}]]"
+      }
+    ],
+    "query": "SELECT\r\n          pg1.page_title\r\n        FROM page AS pg1\r\n        WHERE pg1.page_title NOT IN (\r\n            SELECT\r\n                img_name\r\n            FROM image\r\n            WHERE img_name = pg1.page_title)\r\n        AND pg1.page_title NOT IN (\r\n            SELECT\r\n                img_name\r\n            FROM commonswiki_p.image\r\n            WHERE img_name = pg1.page_title)\r\n        AND pg1.page_namespace = 6\r\n        AND pg1.page_is_redirect = 0\r\n        ORDER BY pg1.page_title;",
+    "locale": "uk-UA"
+  }
+]

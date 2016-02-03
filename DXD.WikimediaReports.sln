@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXD.WikimediaReports.Databa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXD.WikimediaReports.Tests", "DXD.WikimediaReports.Tests\DXD.WikimediaReports.Tests.csproj", "{294A870D-968F-469B-BAF0-0CD72090D1B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXD.WikimediaReports.Core", "DXD.WikimediaReports.Core\DXD.WikimediaReports.Core.csproj", "{6368E8C7-6734-48C8-B29F-9CC9F253CF1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{294A870D-968F-469B-BAF0-0CD72090D1B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{294A870D-968F-469B-BAF0-0CD72090D1B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{294A870D-968F-469B-BAF0-0CD72090D1B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6368E8C7-6734-48C8-B29F-9CC9F253CF1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6368E8C7-6734-48C8-B29F-9CC9F253CF1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6368E8C7-6734-48C8-B29F-9CC9F253CF1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6368E8C7-6734-48C8-B29F-9CC9F253CF1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
